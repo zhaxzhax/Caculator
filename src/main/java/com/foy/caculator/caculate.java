@@ -41,6 +41,9 @@ public class caculate {
         }
         // 这里<---
         index = content.indexOf("√");
+        if (index!=0 &&index!=-1&&((int)content.charAt(index-1)>=48&&(int)content.charAt(index-1)<=57)){
+            return parse(content.substring(0, index) + "X" + content.substring(index));
+        }
         if (index != -1) {
             return Math.sqrt(parse(content.substring(index + 1)));
         }

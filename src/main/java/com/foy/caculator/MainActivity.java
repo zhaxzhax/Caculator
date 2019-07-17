@@ -51,8 +51,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         else  if (v.getId()==R.id.back)
         {
-            String newStr = equation_s.substring(0,equation_s.length()-1);
-            equation.setText(newStr);
+            try
+            {
+                String newStr = equation_s.substring(0,equation_s.length()-1);
+                equation.setText(newStr);
+            }
+            catch (Exception e){
+                result.setText("无法回退！");
+            }
         }
         else  if (v.getId()==R.id.division)
         {
@@ -142,10 +148,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         else if (v.getId()==R.id.equal)
         {
-            String newStr;
-            if (equation_s.charAt(0)=='-'){ newStr = String.format("%s%s","0",equation_s);}
-            else { newStr = equation_s;}
            try{
+               String newStr;
+               if (equation_s.charAt(0)=='-'){ newStr = String.format("%s%s","0",equation_s);}
+               else { newStr = equation_s;}
                 String finres;
                 double res = caculate.parse(newStr);
                 if (String.valueOf(res)=="Infinity")finres="除数不能为0";
