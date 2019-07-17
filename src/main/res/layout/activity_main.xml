@@ -25,17 +25,17 @@
              <TextView
                  android:id="@+id/equation"
                  android:layout_width="match_parent"
-                 android:layout_height="40dp"
+                 android:layout_height="50dp"
                  android:text=""
-                 android:textSize="30sp"
+                 android:textSize="40sp"
                  android:gravity="left">
              </TextView>
              <TextView
                  android:id="@+id/result"
                  android:layout_width="match_parent"
-                 android:layout_height="40dp"
+                 android:layout_height="50dp"
                  android:text=""
-                 android:textSize="30sp"
+                 android:textSize="40sp"
                  android:gravity="right">
              </TextView>
          </LinearLayout>
@@ -45,7 +45,7 @@
              <Button
                  android:id="@+id/leftpa"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -54,7 +54,7 @@
              <Button
                  android:id="@+id/rightpa"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:text=")"
@@ -62,7 +62,7 @@
              <Button
                  android:id="@+id/back"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -74,7 +74,7 @@
              <Button
                  android:id="@+id/division"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -83,7 +83,7 @@
              <Button
                  android:id="@+id/sqrt"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:text="√￣"
@@ -91,7 +91,7 @@
              <Button
                  android:id="@+id/multiply"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -103,7 +103,7 @@
              <Button
                  android:id="@+id/seven"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -112,7 +112,7 @@
              <Button
                  android:id="@+id/eight"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:text="8"
@@ -120,7 +120,7 @@
              <Button
                  android:id="@+id/nine"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -128,7 +128,7 @@
              <Button
                  android:id="@+id/add"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -140,7 +140,7 @@
              <Button
                  android:id="@+id/four"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -149,7 +149,7 @@
              <Button
                  android:id="@+id/five"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:text="5"
@@ -157,7 +157,7 @@
              <Button
                  android:id="@+id/six"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -165,7 +165,7 @@
              <Button
                  android:id="@+id/substract"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -177,7 +177,7 @@
              <Button
                  android:id="@+id/one"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -186,7 +186,7 @@
              <Button
                  android:id="@+id/two"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:text="2"
@@ -194,7 +194,7 @@
              <Button
                  android:id="@+id/three"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -202,7 +202,7 @@
              <Button
                  android:id="@+id/delete"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -214,7 +214,7 @@
              <Button
                  android:id="@+id/dot"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
@@ -222,7 +222,7 @@
              <Button
                  android:id="@+id/zero"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="1"
                  android:background="@drawable/button_main"
                  android:text="0"
@@ -230,11 +230,15 @@
              <Button
                  android:id="@+id/equal"
                  android:layout_width="0dp"
-                 android:layout_height="70dp"
+                 android:layout_height="80dp"
                  android:layout_weight="2"
                  android:background="@drawable/button_main"
                  android:textSize="50dp"
                  android:text="="/>
          </LinearLayout>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="500dp"
+             android:background="@drawable/button_main"/>
      </LinearLayout>
 </android.support.constraint.ConstraintLayout>

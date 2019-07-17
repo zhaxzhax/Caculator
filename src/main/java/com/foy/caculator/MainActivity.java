@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         else  if (v.getId()==R.id.three)
         {
-            String newStr = String.format("%s%s",equation_s,"e");
+            String newStr = String.format("%s%s",equation_s,"3");
             equation.setText(newStr);
         }
         else  if (v.getId()==R.id.four)
